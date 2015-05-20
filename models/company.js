@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var LocationSchema = new Schema({
+var CompanySchema = new Schema({
   longitude: String,
   latitude: String,
   type: String,
@@ -11,4 +11,4 @@ var LocationSchema = new Schema({
   country: String
 });
 
-module.exports = mongoose.model('Location', LocationSchema);
+module.exports = mongoose.model('Company', CompanySchema);
